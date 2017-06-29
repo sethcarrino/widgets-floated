@@ -42,6 +42,7 @@ img{
 
     border-radius: 8px;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 /*************************/
@@ -50,6 +51,8 @@ img{
 #site_header{
     background-color: #262425;
     padding: 20px;
+    margin-bottom: 0;
+    padding-bottom: 50px;
 }
 
 /* TODO: Arrange the logo and navigation links into a row */
@@ -57,7 +60,12 @@ img{
 #logo{
     /* #logo styles here */
     float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
 }
+
+
 #main_nav{
 
     /* #main_nav styles here */
@@ -66,6 +74,10 @@ img{
 }
 #main_nav a{
     background-color: #E57727;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
 
     /* #navigation button styles here */
 }
@@ -142,9 +154,16 @@ img{
 
 #featured_products li{
     /* list item styles here */
+    float: left;
+    width: 31%;
+    padding: 10px;
+
+
 }
 #featured_products li:last-child{
     /* styles for the last li here */
+    float: right;
+
 }
 #featured_products li img{
     border-radius: 4px;
